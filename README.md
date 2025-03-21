@@ -6,6 +6,8 @@
 
 **VMWare Usage Guide**
 
+- [VMWare](https://github.com/InstallingEverything/WindowsNT3.51/blob/main/VMWare.md)
+
 **Service Packs**
 
 - [Service Packs](https://github.com/InstallingEverything/WindowsNT3.51/blob/main/ServicePacks.md)
