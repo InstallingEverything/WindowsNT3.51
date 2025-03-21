@@ -2,20 +2,20 @@
 
 Service Pack 1
 --------------
-Q128453: Windows NT 3.51 Hangs (Memory Access Violation) Running Exchange
-Q128454: Windows NT 3.51 Hangs with Office 95 (Word) Help File Wizard
-Q130093: Err Msg: Incorrect Response from the Network
-Q130292: Windows NT Win16 Subsystem Crashes Printing from Quicken 4.0
-Q130677: TCP/IP Generates Frames with Loopback Address as Source Address
-Q131343:  "Invalid Page Fault" Running Office 95 Help Wizard
-Q131427: Windows NT 3.51 TCP/IP System Network Interface Hang
-Q131683: Help File Opens Very Slowly with Office 95 Applications
-Q131779: Help Fails for VB Modules in Excel
-Q131865: SMC Elite Ultra NIC Causes UNIX Computers to Disconnect TCP/IP
-Q132198: Middle Mouse Button Does Not Work Under Windows NT 3.51
-Q132466: Problems Printing From DCA IRMA Workstation for NT 1.1
-Q132470: STOP Msg: 0x0000000A or 0x0000001E When Using PING
-Q132858: PowerStack with Cirrus Video Adapter Hangs During Startup
+- Q128453: Windows NT 3.51 Hangs (Memory Access Violation) Running Exchange
+- Q128454: Windows NT 3.51 Hangs with Office 95 (Word) Help File Wizard
+- Q130093: Err Msg: Incorrect Response from the Network
+- Q130292: Windows NT Win16 Subsystem Crashes Printing from Quicken 4.0
+- Q130677: TCP/IP Generates Frames with Loopback Address as Source Address
+- Q131343:  "Invalid Page Fault" Running Office 95 Help Wizard
+- Q131427: Windows NT 3.51 TCP/IP System Network Interface Hang
+- Q131683: Help File Opens Very Slowly with Office 95 Applications
+- Q131779: Help Fails for VB Modules in Excel
+- Q131865: SMC Elite Ultra NIC Causes UNIX Computers to Disconnect TCP/IP
+- Q132198: Middle Mouse Button Does Not Work Under Windows NT 3.51
+- Q132466: Problems Printing From DCA IRMA Workstation for NT 1.1
+- Q132470: STOP Msg: 0x0000000A or 0x0000001E When Using PING
+- Q132858: PowerStack with Cirrus Video Adapter Hangs During Startup
 
 Service Pack 2
 --------------
