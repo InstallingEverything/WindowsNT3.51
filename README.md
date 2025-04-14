@@ -20,6 +20,6 @@
 
 **Shell Updates**
 
-
-
+- ![GitHub commits since latest release](https://img.shields.io/github/commits-since/InstallingEverything/WindowsNT3.51/latest)
+- ![GitHub Release](https://img.shields.io/github/v/release/InstallingEverything/WindowsNT3.51)
 - ![GitHub Downloads (all assets, all releases](https://img.shields.io/github/downloads/InstallingEverything/WindowsNT3.51/total)
