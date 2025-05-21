@@ -43,3 +43,5 @@ Here is a list of all the things we found in our testing and how we got it worki
 10. Make sure Disk is set at IDE 0.0.  If it is not you will have issues when installing later Service Packs.
 
 ![Alt Imgae](Images/VMWare/10a.png)
+
+You can now install Windows NT 3.51 on VMWare Workstation.
