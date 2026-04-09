@@ -1,47 +1,58 @@
-# **Getting NT 3.51 to install on VMWare Workstation**
+# Installing Windows NT 3.51 on VMWare Workstation
 
-Getting Windows NT 3.51 to install on VMWare workstation can be a challenge.
+Getting Windows NT 3.51 to install cleanly on modern VMWare Workstation can be tricky. This guide covers the setup options we tested successfully.
 
-Here is a list of all the things we found in our testing and how we got it working.
+## Requirements
 
-1. Creating a new VM and choose Custom install.
+- VMWare Workstation
+- Windows NT 3.51 installation ISO
+- A new virtual machine configured for older Windows guests
 
-![Alt Imgae](Images/VMWare/1a.png)
+## Step-by-step setup
 
-2. Change the dropdown to Workstation 5.x.
+1. Create a new virtual machine and choose `Custom` install.
 
-![Alt Imgae](Images/VMWare/2a.png)
+![Create a new VM](Images/VMWare/1a.png)
 
-3. Select your ISO as normal.
+2. Set the virtual hardware compatibility dropdown to `Workstation 5.x`.
 
-![Alt Imgae](Images/VMWare/3a.png)
+![Select Workstation 5.x](Images/VMWare/2a.png)
 
-4. Select Windows NT from the Windows drop down and carry on.
+3. Attach your Windows NT 3.51 ISO as the installation media.
 
-![Alt Imgae](Images/VMWare/4a.png)
+![Select ISO](Images/VMWare/3a.png)
 
-5. Make sure IDE is selected when you get to the HDD section.
+4. Choose `Windows NT` from the Windows guest operating system dropdown and continue.
 
-![Alt Imgae](Images/VMWare/5a.png)
+![Choose Windows NT](Images/VMWare/4a.png)
 
-6. Create a new Virtual Disk
+5. When selecting the hard disk type, make sure `IDE` is selected.
 
-![Alt Imgae](Images/VMWare/6a.png)
+![Select IDE disk](Images/VMWare/5a.png)
 
-7. On this section i tend to chose a disk size of 2tb bigger works but i have run into issues.  Also make sure store in a single file is ticked.
+6. Create a new virtual disk for the guest.
 
-![Alt Imgae](Images/VMWare/7a.png)
+![Create virtual disk](Images/VMWare/6a.png)
 
-8. Finish creating the VM
+7. For disk size, 2 GB is a reliable choice. Larger disks can work but may cause issues.
+   Also ensure `Store virtual disk as a single file` is enabled.
 
-![Alt Imgae](Images/VMWare/8a.png)
+![Disk size settings](Images/VMWare/7a.png)
 
-9. Once the machine has created go back into the setting for the VM (DO NOT Start) and choose Advanced under Hard Disk.
+8. Finish the VM creation wizard.
 
-![Alt Imgae](Images/VMWare/9a.png)
+![Finish setup](Images/VMWare/8a.png)
 
-10. Make sure Disk is set at IDE 0.0.  If it is not you will have issues when installing later Service Packs.
+9. Before starting the VM, open the virtual machine settings and select the hard disk, then choose `Advanced`.
 
-![Alt Imgae](Images/VMWare/10a.png)
+![Open disk advanced settings](Images/VMWare/9a.png)
 
-You can now install Windows NT 3.51 on VMWare Workstation.
+10. Confirm the disk is set to `IDE 0:0`. If it is not, you may encounter installation or Service Pack update issues later.
+
+![Confirm IDE 0:0](Images/VMWare/10a.png)
+
+## Notes
+
+- A single-file virtual disk is more compatible with older Windows NT builds.
+- Use `IDE 0:0` for the primary disk to avoid installer and post-install update problems.
+- After these settings are confirmed, the machine should boot into the Windows NT 3.51 installer successfully.
